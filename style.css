@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: black;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+
+  .search-container label {
+    margin-right: -58px;
+    font-weight: bold;
+  }
+
+  .search-container input[type="text"] {
+    padding: 20px 40px 20px 20px;
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 3px;
+    font-size: 14px;
+    width: 100%;
+    color: white;
+  }
+  
+  .formField {
+    margin-bottom: 20px;
+    color: white;
+
+  }
+
+  .formField input{
+   padding: 5px 5px 5px 5px;
+   color: white;
+   background-color: black;
+
+  }
+
+  #submitButton {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 150px 10px 150px;
+  }
+  
+  .student-list {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .student-list th,
+  .student-list td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    color: white;
+  }
+  
+  .student-list th {
+   
+    text-align: left;
+  }
+  
+  .student-list td:last-child {
+    text-align: center;
+  }
+  
+  .editButton,
+  .deleteButton {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+  }
+  
+  .editButton {
+    margin-right: 8px;
+    color: white;
+  }
+  
+  .deleteButton {
+    color: white;
+  }
+  
+  .student-list input[type="text"],
+  .student-list input[type="number"],
+  .student-list input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
